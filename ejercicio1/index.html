@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio de Funciones JavaScript</title>
+</head>
+<body>
+    <h1>Ejercicios de Funciones JavaScript</h1>
+    <button id="btnExample">Ejecutar example</button>
+    <button id="btnSuma">Ejecutar suma</button>
+
+    <script src="./assets/js/1_function.js"></script>
+    <script src="./assets/js/2_arrow.js"></script>
+    <script>
+        document.getElementById('btnExample').addEventListener('click', function() {
+            console.log(example(1, 2, 3)); // Usando la función del primer archivo
+        });
+
+        document.getElementById('btnSuma').addEventListener('click', function() {
+            console.log(suma(4, 5)); // Usando la función del segundo archivo
+        });
+    </script>
+</body>
+</html>
+
